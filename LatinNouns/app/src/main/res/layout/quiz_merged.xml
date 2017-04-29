@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:id="@+id/identify_form_linear_layout"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center_horizontal"
+                  android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/identify_form_declined_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            tools:text="@string/identify_form_form_placeholder_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <EditText
+                android:id="@+id/identify_form_case_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textSize="10dp"
+                android:textAllCaps="true"
+                android:gravity="center_horizontal"
+                tools:text="@string/identify_form_case_placeholder_text"/>
+
+            <EditText
+                android:id="@+id/identify_form_number_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textSize="10dp"
+                android:textAllCaps="true"
+                android:gravity="center_horizontal"
+                tools:text="@string/identify_form_number_placeholder_text"/>
+
+            <EditText
+                android:id="@+id/identify_form_gender_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textSize="10dp"
+                android:textAllCaps="true"
+                android:gravity="center_horizontal"
+                tools:text="@string/identify_form_gender_placeholder_text"/>
+
+            <EditText
+                android:id="@+id/identify_form_decl_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textSize="10dp"
+                android:textAllCaps="true"
+                android:gravity="center_horizontal"
+                tools:text="@string/identify_form_decl_placeholder_text"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/identify_form_case_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/identify_form_case"
+            android:textSize="14dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/identify_form_nom_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nom"/>
+
+            <Button
+                android:id="@+id/identify_form_gen_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gen"/>
+
+            <Button
+                android:id="@+id/identify_form_dat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dat"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/identify_form_acc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acc"/>
+
+            <Button
+                android:id="@+id/identify_form_abl_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abl"/>
+
+            <Button
+                android:id="@+id/identify_form_voc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voc"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/identify_form_number_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="@string/identify_form_number"
+            android:textSize="14dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/identify_form_sing_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sing"/>
+
+            <Button
+                android:id="@+id/identify_form_plur_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plur"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/identify_form_gender_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14dp"
+            android:layout_margin="5dp"
+            android:text="@string/identify_form_gender"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/identify_form_fem_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fem"/>
+
+            <Button
+                android:id="@+id/identify_form_masc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masc"/>
+
+            <Button
+                android:id="@+id/identify_form_neut_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neut"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/identify_form_decl_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14dp"
+            android:layout_margin="5dp"
+            android:text="@string/identify_form_decl"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/identify_form_decl_1st_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decl_1st"/>
+
+            <Button
+                android:id="@+id/identify_form_decl_2nd_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decl_2nd"/>
+
+            <Button
+                android:id="@+id/identify_form_decl_3rd_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decl_3rd"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <Button
+                android:id="@+id/identify_form_decl_4th_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/decl_4th"/>
+
+            <Button
+                android:id="@+id/identify_form_decl_5th_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/decl_5th"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/identify_form_submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/identify_form_submit"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:id="@+id/decline_noun_linear_layout"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/decline_noun_progressbar"-->
+            <!--style="@android:style/Widget.ProgressBar.Horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_margin="5dp"-->
+            <!--/>-->
+
+        <TextView
+            android:id="@+id/decline_noun_decline_prompt_textview"
+            android:text="@string/decline_noun_decline_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/decline_noun_dict_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/decline_noun_dict_placeholder_text"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/decline_noun_into_prompt_textview"
+            android:text="@string/decline_noun_into_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/decline_noun_case_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textSize="18dp"
+                android:textAllCaps="true"
+                android:gravity="center_horizontal"
+                tools:text="@string/decline_noun_case_placeholder_text"/>
+
+            <EditText
+                android:id="@+id/decline_noun_number_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textSize="18dp"
+                android:textAllCaps="true"
+                tools:text="@string/decline_noun_number_placeholder_text"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/decline_noun_input_edittext"
+            android:text="@string/decline_noun_input_placeholder_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:background="@drawable/edittext_round_corners"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:id="@+id/decline_noun_a_macron_button"
+                android:text="@string/decline_noun_a_macron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/decline_noun_e_macron_button"
+                android:text="@string/decline_noun_e_macron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/decline_noun_i_macron_button"
+                android:text="@string/decline_noun_i_macron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/decline_noun_o_macron_button"
+                android:text="@string/decline_noun_o_macron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/decline_noun_u_macron_button"
+                android:text="@string/decline_noun_u_macron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/decline_noun_submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/decline_noun_submit"/>
+
+    </LinearLayout>
+
+</merge>

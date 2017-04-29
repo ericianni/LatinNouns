@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 1st Declension -->
+            <TextView
+                android:id="@+id/landing_page_1st_decl_textview"
+                android:text="@string/landing_page_1st_decl_masc_fem_text"
+                style="@style/header" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_1st_decl_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- 2nd Declension Masc-->
+            <TextView
+                android:id="@+id/landing_page_2nd_decl_masc_textview"
+                android:text="@string/landing_page_2nd_decl_masc_text"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_masc_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- 2nd Declension Neut-->
+            <TextView
+                android:id="@+id/landing_page_2nd_decl_neut_textview"
+                android:text="@string/landing_page_2nd_decl_neut_text"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_2nd_decl_neut_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- 3rd Declension Masc/Fem -->
+            <TextView
+                android:id="@+id/landing_page_3rd_decl_masc_fem_textview"
+                android:text="@string/landing_page_3rd_decl_masc_fem_text"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_masc_fem_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- 3rd Declension -->
+            <TextView
+                android:id="@+id/landing_page_3rd_decl_neut_textview"
+                android:text="@string/landing_page_3rd_decl_neut_text"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_3rd_decl_neut_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- 4th Declension -->
+            <TextView
+                android:id="@+id/landing_page_4th_decl_textview"
+                android:text="@string/landing_page_4th_decl_text"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_4th_decl_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- 5th Declension -->
+            <TextView
+                android:id="@+id/landing_page_5th_decl_textview"
+                android:text="@string/landing_page_5th_decl_text"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <!-- Singular Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_nom_sing_button"
+                        android:text="@string/landing_page_nom_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_gen_sing_button"
+                        android:text="@string/landing_page_gen_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_dat_sing_button"
+                        android:text="@string/landing_page_dat_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_acc_sing_button"
+                        android:text="@string/landing_page_acc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_abl_sing_button"
+                        android:text="@string/landing_page_abl_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_voc_sing_button"
+                        android:text="@string/landing_page_voc_sing"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <!-- Plural Column -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_nom_plur_button"
+                        android:text="@string/landing_page_nom_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_gen_plur_button"
+                        android:text="@string/landing_page_gen_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_dat_plur_button"
+                        android:text="@string/landing_page_dat_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_acc_plur_button"
+                        android:text="@string/landing_page_acc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_abl_plur_button"
+                        android:text="@string/landing_page_abl_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/landing_page_5th_decl_voc_plur_button"
+                        android:text="@string/landing_page_voc_plur"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size" android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/landing_page_custom_practice_button"
+            style="@style/custom_practice_button"
+            android:text="@string/landing_page_custom_practice_text"/>
+    </LinearLayout>
+</LinearLayout>

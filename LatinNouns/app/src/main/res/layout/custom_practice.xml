@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_practice_header_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:text="@string/custom_practice_header"/>
+
+    <TextView
+        android:id="@+id/custom_practice_case_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:text="@string/custom_practice_case"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/custom_practice_nom_button"
+            style="@style/selector_button"
+            android:text="@string/nom"/>
+
+        <Button
+            android:id="@+id/custom_practice_gen_button"
+            style="@style/selector_button"
+            android:text="@string/gen"/>
+
+        <Button
+            android:id="@+id/custom_practice_dat_button"
+            style="@style/selector_button"
+            android:text="@string/dat"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/custom_practice_acc_button"
+            style="@style/selector_button"
+            android:text="@string/acc"/>
+
+        <Button
+            android:id="@+id/custom_practice_abl_button"
+            style="@style/selector_button"
+            android:text="@string/abl"/>
+
+        <Button
+            android:id="@+id/custom_practice_voc_button"
+            style="@style/selector_button"
+            android:text="@string/voc"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/custom_practice_number_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:text="@string/custom_practice_number"/>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/custom_practice_sing_button"
+            style="@style/selector_button"
+            android:text="@string/sing"/>
+
+        <Button
+            android:id="@+id/custom_practice_plur_button"
+            style="@style/selector_button"
+            android:text="@string/plur"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/custom_practice_gender_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:text="@string/custom_practice_gender"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/custom_practice_fem_button"
+            style="@style/selector_button"
+            android:text="@string/fem"/>
+
+        <Button
+            android:id="@+id/custom_practice_masc_button"
+            style="@style/selector_button"
+            android:text="@string/masc"/>
+
+        <Button
+            android:id="@+id/custom_practice_neut_button"
+            style="@style/selector_button"
+            android:text="@string/neut"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/custom_practice_decl_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:text="@string/custom_practice_decl"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/custom_practice_1st_button"
+            style="@style/selector_button"
+            android:text="@string/decl_1st"/>
+
+        <Button
+            android:id="@+id/custom_practice_2nd_button"
+            style="@style/selector_button"
+            android:text="@string/decl_2nd"/>
+
+        <Button
+            android:id="@+id/custom_practice_3rd_button"
+            style="@style/selector_button"
+            android:text="@string/decl_3rd"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/custom_practice_4th_button"
+            style="@style/selector_button"
+            android:text="@string/decl_4th"/>
+
+        <Button
+            android:id="@+id/custom_practice_5th_button"
+            style="@style/selector_button"
+            android:text="@string/decl_5th"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/custom_practice_quiz_button"
+        style="@style/custom_practice_button"
+        android:text="@string/custom_practice_quiz"/>
+
+
+</LinearLayout>

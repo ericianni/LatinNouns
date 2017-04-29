@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Latin Nouns</string>
+    <string name="close">Close</string>
+
+    <string name="menu_about">About</string>
+    <string name="menu_close">Close</string>
+    <string name="menu_back">Go Back</string>
+    <string name="menu_quit_quiz">Quit Quiz</string>
+    <string name="menu_instructions">Get Started</string>
+    <string name="menu_info">Info</string>
+
+    <string name="pop_up_about_text">
+        "Created by: Eric Ianni\nDate: April 2017"
+    </string>
+
+    <string name="pop_up_getting_started_text">"Latin Nouns is a study tool designed to help you"
+        "learn and practice your noun endings. It is more than a simple flashcard app. Behind the"
+        "scenes, Latin Nouns leverages the power of Spaced Repetition to predict when you are"
+        "about to forget a piece of knowledge. Latin Nouns does this all automatically and"
+        "provides visual clues as to each piece of knowledge’s strength.\n\nWhen you first start"
+        "Latin Nouns you are taken to the Main Menu where each Case/Number pairing is shown for each"
+        "of the declensions. Each is a button that is initially colored gray. A button with a gray"
+        "color means that knowledge has yet to be reviewed.\n\nBy clicking on any of the buttons"
+        "you are taken to a quiz that asks you to decline a Latin noun into the selected form. As"
+        "you get questions right or wrong, Latin Nouns is calculating how well you know the"
+        "material and uses that information to predict the optimal number of days until you should"
+        "review it again. After the quiz you will return to the Main Menu where you will see the"
+        "selected button will now be colored green.\n\nAs the days go by, Latin Nouns will update"
+        "the colors of each of the buttons to reflect your knowledge’s strength. The buttons will"
+        "change from green to red as you get closer to forgetting. You are free to review any of"
+        "the pieces of knowledge at anytime, but when a button turns red you risk forgetting the"
+        "knowledge and having to start over from the beginning.\n\nInitially your knowledge will"
+        "degrade quickly and you will have to review the material multiple times a week. But as"
+        "you master the knowledge the number of days between the reviews will continue to grow so"
+        "you will only have to review the material every once in awhile.\n\nLatin Nouns also"
+        "offers a Custom Practice option. Selecting this option will allow you to pick and choose"
+        "exactly what knowledge you are quizzed on. You can mix and match any number of cases,"
+        "numbers, genders, and declensions. With Custom Practice you can even choose to practice"
+        "everything at once! But be aware, Latin Nouns isn’t as effective when quizzing with that"
+        "many concepts at once: the quiz will only have one or two items (if any at all) from each"
+        "concept so false positives/negatives are possible."</string>
+    <string name="pop_up_custom_practice_instructions_text">"Custom Practice allows you to pick"
+        "exactly what you want the quiz to cover. You must select at least one option from each"
+        "category before the quiz can start. The more narrowly you focus your practice the better"
+        "Latin Nouns will be able to predict when you are about to forget. Choosing too many"
+        "options can result in dozens of concepts and they all can’t be covered in one quiz.\n\n"
+        "Please be aware that some combinations won’t result in any quiz questions because they"
+        "don’t exist in Latin: e.g. neuter 1st declension."</string>
+
+
+    <string name="custom_practice_header">Select Forms</string>
+    <string name="custom_practice_case"><u>Case</u></string>
+    <string name="custom_practice_number"><u>Number</u></string>
+    <string name="custom_practice_gender"><u>Gender</u></string>
+    <string name="custom_practice_decl"><u>Declension</u></string>
+    <string name="custom_practice_quiz">Quiz</string>
+    <string name="custom_practice_warning_title">Invalid Selection</string>
+    <string name="custom_practice_warning_message">There are no forms with those selections. For example, there are no Neut 1st Declension Nouns.</string>
+    <string name="custom_practice_warning_button">Continue</string>
+
+    <string name="nom">Nom</string>
+    <string name="gen">Gen</string>
+    <string name="dat">Dat</string>
+    <string name="acc">Acc</string>
+    <string name="abl">Abl</string>
+    <string name="voc">Voc</string>
+
+    <string name="sing">Sing</string>
+    <string name="plur">Plur</string>
+
+    <string name="masc">Masc</string>
+    <string name="fem">Fem</string>
+    <string name="neut">Neut</string>
+
+    <string name="decl_1st">1st</string>
+    <string name="decl_2nd">2nd</string>
+    <string name="decl_3rd">3rd</string>
+    <string name="decl_4th">4th</string>
+    <string name="decl_5th">5th</string>
+
+    <string name="identify_form_form_placeholder_text">amicus</string>
+    <string name="identify_form_case_placeholder_text">nom</string>
+    <string name="identify_form_number_placeholder_text">sing</string>
+    <string name="identify_form_gender_placeholder_text">masc</string>
+    <string name="identify_form_decl_placeholder_text">2nd</string>
+
+    <string name="identify_form_case"><u>Case</u></string>
+    <string name="identify_form_number"><u>Number</u></string>
+    <string name="identify_form_gender"><u>Gender</u></string>
+    <string name="identify_form_decl"><u>Declension</u></string>
+    <string name="identify_form_submit">Submit</string>
+
+    <string name="decline_noun_decline_prompt">Decline</string>
+    <string name="decline_noun_dict_placeholder_text">puella, puellae, f, 1st</string>
+    <string name="decline_noun_into_prompt">Into</string>
+    <string name="decline_noun_submit">Submit</string>
+    <string name="decline_noun_case_placeholder_text">nom</string>
+    <string name="decline_noun_number_placeholder_text">plur</string>
+    <string name="decline_noun_input_placeholder_text">ami</string>
+    <string name="decline_noun_a_macron">ā</string>
+    <string name="decline_noun_e_macron">ē</string>
+    <string name="decline_noun_i_macron">ī</string>
+    <string name="decline_noun_o_macron">ō</string>
+    <string name="decline_noun_u_macron">ū</string>
+
+    <string name="landing_page_1st_decl_masc_fem_text">1st Declension Masc/Fem</string>
+    <string name="landing_page_2nd_decl_masc_text">2nd Declension Masc</string>
+    <string name="landing_page_2nd_decl_neut_text">2nd Declension Neut</string>
+    <string name="landing_page_3rd_decl_masc_fem_text">3rd Declension Masc/Fem</string>
+    <string name="landing_page_3rd_decl_neut_text">3rd Declension Neut</string>
+    <string name="landing_page_4th_decl_text">4th Declension</string>
+    <string name="landing_page_5th_decl_text">5th Declension</string>
+    <string name="landing_page_custom_practice_text">Custom Practice</string>
+
+    <string name="landing_page_nom_sing">"Nom\nSing"</string>
+    <string name="landing_page_gen_sing">"Gen\nSing"</string>
+    <string name="landing_page_dat_sing">"Dat\nSing"</string>
+    <string name="landing_page_acc_sing">"Acc\nSing"</string>
+    <string name="landing_page_abl_sing">"Abl\nSing"</string>
+    <string name="landing_page_voc_sing">"Voc\nSing"</string>
+
+    <string name="landing_page_nom_plur">"Nom\nPlur"</string>
+    <string name="landing_page_gen_plur">"Gen\nPlur"</string>
+    <string name="landing_page_dat_plur">"Dat\nPlur"</string>
+    <string name="landing_page_acc_plur">"Acc\nPlur"</string>
+    <string name="landing_page_abl_plur">"Abl\nPlur"</string>
+    <string name="landing_page_voc_plur">"Voc\nPlur"</string>
+
+    <!--Decline Noun Quiz-->
+    <string name="please_enter_answer">Please enter an answer</string>
+    <string name="dialog_title_correct">Correct!</string>
+    <string name="dialog_title_incorrect">Incorrect</string>
+    <string name="dialog_continue_button">Continue</string>
+    <string name="dialog_message_correct">Congratulations!</string>
+    <string name="dialog_message_user_answer">Your answer was</string>
+    <string name="dialog_message_incorrect">The correct answer is</string>
+
+    <string name="icon_size">124dp</string>
+
+</resources>
