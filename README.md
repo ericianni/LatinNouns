@@ -10,4 +10,9 @@
 * My feedback form is at https://goo.gl/forms/Q1qXNZFXA27DG8KN2
 
 ### Final Presentation
-* My presentation is available on YouTube
+* My presentation is available on YouTube (https://youtu.be/yGmWB9JwSpE)
+
+### Sharing My Work With Future Classes
+* I would like to share any of my presentations and papers that I have written for this course
+* I would like to share my Android app on the Play Store
+* I would NOT like to share my files associated with my Android app
